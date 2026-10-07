@@ -10,6 +10,6 @@ table, th, td{
     border: 1px solid brown;
     padding: 10px;
 }
-h1, ul, ol {
+h1, h6, ul, ol {
     color: orange;
 }
