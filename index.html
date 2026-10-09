@@ -12,7 +12,9 @@
         <div id="table"></div>
         <script>
             fetch('Journals/Navigation.html')
-                .then(response => {document.getElementById('table').innerHTML = response.text()});
+                .then(response => response.text())
+                .then(response => {document.getElementById('table').innerHTML = data;
+                });
         </script>
         
         <img src="PicOfMe.jpg" width="300" length="100"/>
