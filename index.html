@@ -12,7 +12,9 @@
         <div id="table"></div>
         <script>
             fetch('Journals/Navigation.html')
-                .then(response => {document.getElementById('table').innerHTML = response.text();
+                .then(response => {
+                    const data = await response.text();
+                    document.getElementById('table').innerHTML = data;
                 });
         </script>
         
