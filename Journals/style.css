@@ -1,15 +1,16 @@
 body {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-    background-color: black;
+    background: linear-gradient(to bottom right, #212121,#d53600);
+    min-height: 100vh;
 }
 table {
     width: 100%;
 }
 table, th, td{
     border-collapse: collapse;
-    border: 1px solid brown;
+    border: 2px solid brown;
     padding: 10px;
 }
-h1, ul, ol {
+h1, h6, ul, ol{
     color: orange;
 }
