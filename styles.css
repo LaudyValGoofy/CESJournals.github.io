@@ -1,6 +1,8 @@
 body {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
+    min-height: 100vh;
     background-image: linear-gradient(to bottom right, #212121,#d53600);
+    background-attachment: fixed;
 }
 table {
     width: 100%;
