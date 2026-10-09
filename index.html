@@ -11,7 +11,8 @@
         <!-- My dad suggested using js to simplify adding a table for navigation !-->
         <div id="table"></div>
         <script>
-            .then(response => {document.getElementById('table').innerHTML = response.text()});
+            fetch('Navigation.html')
+                .then(response => {document.getElementById('table').innerHTML = response.text()});
         </script>
         
         <img src="PicOfMe.jpg" width="300" length="100"/>
