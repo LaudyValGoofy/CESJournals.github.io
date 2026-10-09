@@ -8,6 +8,15 @@
     <body>
         <div>
             <h1>Journal Entry: Linear vs Binary Search</h1>
+        <div id="table"></div>
+        <script>
+            fetch('Journals/Navigation.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('table').innerHTML = data;
+                });
+        </script>
+            <!--
             <table>
             <tr>
                 <td><a href="Journals/Programming.html" target="_blank">Programming</a></td>
@@ -26,6 +35,7 @@
                 <td><a href="Journals/Course Impact.html" target="_blank">Course Impact</a></td>
             </tr>
             </table>
+            !-->
             <ol>
                 <li>Define a Linear search in your own words.</li>
                 <li>Define a Binary search in your own words.</li>
